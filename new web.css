@@ -10,7 +10,7 @@ body{
 }
 .container{
   width: 100%;
-  height: 100vh;
+  max-height: 500px;
   background-image: url('images/bigstock-204415228-1.jpg');
   background-position: center;
   background-size: cover;
