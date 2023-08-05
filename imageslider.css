@@ -225,7 +225,7 @@ main {
 }
 
 #landing-image {
-    background-image: url('image.html/images.jpeg');
+    background-image: url('images/images.jpeg');
     background-position: center;
     background-size:100%;
     background-repeat: no-repeat;
