@@ -5,3 +5,4 @@ $(".input_text").focusout(function(){
     $(this).prev('.fa').removeclass('glowIcon')
 })
 console.log('hii');
+console.log('hello');
