@@ -72,7 +72,7 @@ const infiniteScroll = () => {
 const autoPlay = () => {
     if(window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
     // Autoplay the carousel after every 2500 ms
-    timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
+    timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 200);
 }
 autoPlay();
 
@@ -119,4 +119,20 @@ function tamil2(){
 }
 function hindi2(){
     document.getElementById('translate3').innerHTML="ईमेल घोटाला, जिसे फ़िशिंग के रूप में भी जाना जाता है, व्यक्तियों को पासवर्ड, क्रेडिट कार्ड नंबर या व्यक्तिगत पहचान विवरण जैसी संवेदनशील जानकारी प्रकट करने के लिए धोखा देने का एक कपटपूर्ण प्रयास है। घोटालेबाज प्रतीत होता है कि वैध ईमेल भेजते हैं जो बैंकों, सरकारी एजेंसियों या प्रसिद्ध कंपनियों जैसे विश्वसनीय स्रोतों की नकल करते हैं। ये ईमेल अक्सर प्राप्तकर्ताओं से दुर्भावनापूर्ण लिंक पर क्लिक करने, हानिकारक अनुलग्नक डाउनलोड करने, या जरूरी मामलों, पुरस्कारों या सुरक्षा अलर्ट के बहाने गोपनीय जानकारी प्रदान करने का आग्रह करते हैं। ईमेल घोटालों का उद्देश्य विश्वास का शोषण करना, तात्कालिकता की भावना पैदा करना और प्राप्तकर्ताओं को ऐसे कदम उठाने के लिए प्रेरित करना है जो उनकी सुरक्षा से समझौता करते हैं। ईमेल घोटालों का शिकार होने से बचने के लिए, प्रेषक की जानकारी को सत्यापित करना, संदिग्ध लिंक पर क्लिक करने से बचना और व्यक्तिगत या वित्तीय विवरण ऑनलाइन साझा करते समय सावधानी बरतना महत्वपूर्ण है।";
+}
+function myFunction1(){
+    document.getElementById('y-video').src='https://www.youtube.com/embed/4PbLE5ale2A?si=8RCKy8rxehSgiRwW'
+}function myFunction2(){
+    document.getElementById('y-video').src='https://www.youtube.com/embed/UhPDiac8Jmc?si=q377thQUucarmrtj'
+}function myFunction3(){
+    document.getElementById('y-video').src='https://www.youtube.com/embed/CyIGuLFAMqo?si=61HqhU9-TNtynxDe'
+}
+function myFunction4(){
+    document.getElementById('y-video').src='https://www.youtube.com/embed/KSldKHq-UVk?si=nf8cjFJz9cIPNA1Y'
+}
+function myFunction5(){
+    document.getElementById('y-video').src='https://www.youtube.com/embed/6uH9KX6Fiho?si=CxTpjwKFmWdXbK99'
+}
+function myFunction6(){
+    document.getElementById('y-video').src='https://www.youtube.com/embed/h0xhoiOg9Y8?si=FZsNYIsoRdRozLL5'
 }
