@@ -9,6 +9,8 @@ html{
 }
 body{
     margin: 0;
+    padding: 0;
+    
 }
 /* -------------------------nav start---------------------------------- */
 header{
@@ -165,6 +167,9 @@ ul li:first-child{
   width: 300px;
   max-width: auto;
   font-size: 25px;
+}
+.wrapper{
+    overflow: hidden;
 }
 /* -------------------------image slider ends------------------------------ */
 /* -------------------------Youtube container starts---------------------------------- */
